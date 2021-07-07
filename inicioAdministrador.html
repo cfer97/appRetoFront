@@ -20,8 +20,7 @@
                     <img src="./img/logo.png" alt="">
                 </div>
                 <div class="links" id="links">
-                    <a href="index.html" id="login" class="btn-header">Log In</a>
-                    <a href="registro.html" id="sign" class="btn-header">Registro</a>
+                    <button id="logOut" class="btn btn-info">Cerrar Sesión</button>
                 </div>
                 <!--div></div-->
                 <div class="icono" id="open">
@@ -32,19 +31,20 @@
 
         <div class="elementos textos">
             <div>
-                <h1>Contoso</h1>
-                <p>¡Bienvenido!</p>
-                <form id="login">
-                    <div class="form-group">
-                        <label>Usuario</label>
-                        <input type="text" class="form-control" id="user" placeholder="Ingrese su Usuario" required>
-                    </div>
-                    <div class="form-group">
-                        <label>Contraseña</label>
-                        <input type="password" class="form-control" id="password" placeholder="Contraseña" required>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Entrar</button>
-                </form>
+                <h1>Datos registrados hasta hoy</h1>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Oficio</th>
+                            <th scope="col">No. de Mascotas</th>
+                            <th scope="col">Pasatiempo</th>
+                            <th scope="col">Registrado por:</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                    </tbody>
+                </table>
             </div>
         </div>
 
@@ -55,8 +55,9 @@
             &copy; Cecilia Fernanda Hernández Baez
         </p>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="./js/login.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/inicioAdministrador.js"></script>
 
 </body>
 

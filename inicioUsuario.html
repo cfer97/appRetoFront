@@ -1,66 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="vieport" content="with=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Página Web</title>
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    </head>
-    <body>
-        <header>
-            <nav id="nav" class="nav1">
-                <div class="container-nav">
-                    <div class="logo">
-                        <img src="./img/logo.png" alt="">
-                    </div>
-                    <div class="links" id="links">
-                        <a href="#" id="login" class="btn-header">Log In</a>
-                        <a href="#" id="sign" class="btn-header">Sign Up</a>
-                    </div>
-                    <!--div></div-->
-                    <div class="icono" id="open">
-                        <span>&#9776;</span>
-                    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="vieport" content="with=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página Web</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <nav id="nav" class="nav1">
+            <div class="container-nav">
+                <div class="logo">
+                    <img src="./img/logo.png" alt="">
                 </div>
-            </nav>
-            
-                <div class="elementos textos">
-                    <div>
-                        <h1>Queremos saber un poco sobre ti</h1>
-                        <p >¡Ayudanos a llenar este formulario!</p>
-                        <form>
-                            <div class="form-group">
-                              <label id="text">¿A qué te dedicas?</label>
-                              <input type="text" class="form-control" id="oficio"  placeholder="Oficio">
-                            </div>
-                            <div class="form-group">
-                              <label >¿Cuantas mascotas tienes?</label>
-                              <input type="number" class="form-control" id="mascotas" placeholder="0">
-                            </div>
-                            <div class="form-group">
-                                <label >Nombre</label>
-                                <input type="text" class="form-control" id="nombre" placeholder="Nombre Completo">
-                            </div>
-                            <button type="submit" class="btn btn-primary" id="enviar">Enviar</button>
-                        </form>
-                    </div>
+                <div class="links" id="links">
+                    <button id="logOut" class="btn btn-info">Cerrar Sesión</button>
                 </div>
-                
-        </header>
-        
-       <footer>
-           <p>
+                <!--div></div-->
+                <div class="icono" id="open">
+                    <span>&#9776;</span>
+                </div>
+            </div>
+        </nav>
+
+        <div class="elementos textos">
+            <div>
+                <h1>Queremos saber un poco sobre ti</h1>
+                <p>¡Ayudanos a llenar este formulario!</p>
+                <form>
+                    <div class="form-group">
+                        <label id="text">¿A qué te dedicas?</label>
+                        <input type="text" class="form-control" id="oficio" placeholder="Oficio">
+                    </div>
+                    <div class="form-group">
+                        <label>¿Cuantas mascotas tienes?</label>
+                        <input type="number" class="form-control" id="mascotas" placeholder="0">
+                    </div>
+                    <div class="form-group">
+                        <label>Pasatiempo</label>
+                        <input type="text" class="form-control" id="pasatiempo" placeholder="Escriba su pasatiempo">
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="enviar">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+    </header>
+
+    <footer>
+        <p>
             &copy; Cecilia Fernanda Hernández Baez
-           </p>
-       </footer>
-       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="/js/jquery.js"></script>
-        <script src="/js/main.js"></script>
-        
-    </body>
+        </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/inicioUsuario.js"></script>
+
+</body>
+
 </html>
